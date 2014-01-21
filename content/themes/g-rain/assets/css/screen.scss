@@ -128,6 +128,7 @@ html {
 }
 
 body {
+    background-color: #333;
     height: 100%;
     max-height: 100%;
     font-family: Droid Serif, Georgia, serif;
@@ -1824,3 +1825,16 @@ audio.audio-rain    {
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Post specific styles
+   ========================================================================== */
+
+
+.post.tag-padding-saves-the-day img {
+  border: 1px solid gray;
+}
