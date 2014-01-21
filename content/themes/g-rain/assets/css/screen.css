@@ -242,6 +242,10 @@ pre code {
   background: #333;
 }
 
+code span {
+  white-space: nowrap;
+}
+
 /*pre {*/
   /*-moz-box-sizing: border-box;*/
   /*box-sizing: border-box;*/
