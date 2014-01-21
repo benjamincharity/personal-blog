@@ -45,7 +45,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: process.env.GHOST_URL,
-        mail: {},
+        mail: {
+          transport: 'SMTP',
+          options: {
+            service: 'Mailgun',
+            auth: {
+              user: 'postmaster@benjamincharity.com',
+              pass: '8t7uwusir-e6'
+            }
+          }
+        },
         database: {
             client: 'sqlite3',
             connection: {
